@@ -1,4 +1,4 @@
-result<-read.table("C:\\Users\\glafforgue\\Desktop\\Marie\\Bottleneck\\combi_result.csv",sep=";",header=TRUE) 
+result<-read.table("C:\\Users\\glafforgue\\Desktop\\Resultats model Bottlenecks\\Analyse\\Data\\combi_result_avakas_uniq.csv",sep=";",header=TRUE) 
 
 result1 <- result[ , - c(6:9)]
 
@@ -47,7 +47,7 @@ max(abtAtDm)
 
 plot(ab)
 plot(tAtD)
-
-write.table(ResultTrue, "GroupTrue.csv", row.names=TRUE, quote = FALSE, na = "", sep = ";") 
+plot(a)
+write.table(ResultTrue, "C:\\Users\\glafforgue\\Desktop\\Resultats model Bottlenecks\\Analyse\\temp\\GroupTrue.csv", row.names=TRUE, quote = FALSE, na = "", sep = ";") 
 
 
